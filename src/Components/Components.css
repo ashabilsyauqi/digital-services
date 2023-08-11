@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.height-test {
+  height: 200vh;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.Hero {
+  background-image: url(./assets/architect.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.45);
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Hero-tagline {
+  text-align: center;
+}
+.Hero-title {
+  /* background-color: black; */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  color: white;
+  display: inline;
+  color: #fff;
+  text-align: center;
+  /* font-family: Ubuntu; */
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  /* line-height: 107.023%; 68.495px */
+}
+.Hero-description {
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  width: 412px;
+  height: 37px;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+/* servces */
+.Services {
+  /* background-color: red; */
+  /* width: 1440px; */
+  height: 425px;
+}
+.Services-tagline {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  display: inline-block;
+
+  color: #fff;
+  text-align: center;
+  /* font-family: Inter; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.Services-cards {
+  padding: 10px;
+  /* background-color: grey; */
+}
+
+.Service-card {
+  width: 250px;
+  height: 300px;
+}
+.Services-img{
+    width: 100%;
+}
+
+/* button */
+.button {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
