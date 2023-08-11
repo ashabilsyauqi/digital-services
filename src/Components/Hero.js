@@ -10,7 +10,7 @@ export default function Hero() {
             we are Forging Digital Dreams, One Line of Code at a Time your IT
             Bussines
           </h3>
-          <a href="/" className="button">Learn More...</a>
+          <a href="#About" className="button">Learn More...</a>
         </div>
       </div>
     </div>
