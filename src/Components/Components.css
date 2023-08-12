@@ -51,7 +51,7 @@
 }
 .Hero-description {
   color: white;
-  margin-top: 20px;
+  margin: 50px 0;
   display: flex;
   width: 412px;
   height: 37px;
@@ -98,6 +98,8 @@
   padding: 10px;
   color: white;
   text-decoration: none;
+  margin: 20px 0px;
+  display: inline-block;
 }
 
 /* about */
@@ -133,9 +135,9 @@
 }
 
 /* Member */
-.Member {
-  /* background-color: grey; */
-}
+/* .Member {
+  background-color: grey;
+} */
 .Profile-card {
   padding: 10px;
   text-align: center;
@@ -145,4 +147,35 @@
   width: 200px;
   height: 200px;
   border-radius: 100px;
+}
+
+
+
+/* Form */
+.Form-section{
+ padding: 200px 0;
+}
+.btn-size{
+  font-size: 30px;
+  color: #292929;
+}
+.Footer{
+  width: 100%;
+  background-color: black;
+}
+
+.Footer-text{
+  width: 50%;
+  color: white;
+  /* background-color: red; */
+}
+.Footer-img{
+  width: 30%;
+
+}
+.Footer-info{
+  list-style: none;
+}
+.gap{
+  justify-content: space-between;
 }

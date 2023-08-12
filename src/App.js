@@ -5,6 +5,8 @@ import Hero from "./Components/Hero";
 import Services from "./Components/Services";
 import About from "./Components/About";
 import Member from "./Components/Member";
+import Form from "./Components/Form";
+import Footer from "./Components/Footer";
 // import Member from "./Components/Member";
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
       <About/>
       <div className="wrapper">
         <Member />
+        <Form />
       </div>
+      <Footer />
     </div>
   );
 }
